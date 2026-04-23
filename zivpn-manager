@@ -1081,7 +1081,7 @@ exit 1
 ;;
 esac
 echo "Terdeteksi arsitektur: $ARCH → pakai $FILE"
-wget -O /root/zi.sh "https://raw.githubusercontent.com/ziflazz-sketch/hasyim/main/$FILE"
+wget -O /root/zi.sh "https://raw.githubusercontent.com/zahidbd2/udp-zivpn/main/zi.sh"
 echo "5. Beri izin executable..."
 chmod +x /root/zi.sh
 echo "6. Jalankan skrip instalasi ZiVPN..."
